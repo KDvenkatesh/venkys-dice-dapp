@@ -33,6 +33,9 @@ The vision of Petra Dice Roll is to:
 
 ## ⭐ Screenshot
 
+<img width="1898" height="976" alt="Screenshot 2025-08-05 201802" src="https://github.com/user-attachments/assets/65603ecc-11f0-4e5d-b856-bca8177a347f" />
+
+
 > ![Petra Dice Roll DApp UI]("C:\Users\K DHANU VENKATESH\venkysapp\frontend\Screenshot 2025-08-05 201802.png")
 
 _📌 Make sure the image file exists at `frontend/screenshots/dice-roll-screenshot.png`. Rename your actual file (`Screenshot 2025-08-05 201802.png`) to `dice-roll-screenshot.png` and place it in a `screenshots` folder inside `frontend/`._
