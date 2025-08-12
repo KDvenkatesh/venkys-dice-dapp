@@ -1,67 +1,40 @@
-# venkys-dice-dapp
+## Create Aptos Dapp Boilerplate Template
 
-# 🎲 Petra Dice Roll DApp
+The Boilerplate template provides a starter dapp with all necessary dapp infrastructure and a simple wallet info implementation, transfer APT and a simple message board functionality to send and read a message on chain.
 
-## ⭐ Project Description
+## Read the Boilerplate template docs
 
-Petra Dice Roll is a Web3 decentralized application (DApp) built on the **Aptos blockchain**. It enables users to connect their **Petra Wallet**, interact with an on-chain dice game, and receive the results of the roll through blockchain transactions. The app combines fun, interactivity, and blockchain education in one lightweight DApp.
+To get started with the Boilerplate template and learn more about the template functionality and usage, head over to the [Boilerplate template docs](https://learn.aptoslabs.com/en/dapp-templates/boilerplate-template)
 
-## ⭐ Project Vision
+## The Boilerplate template provides:
 
-The vision of Petra Dice Roll is to:
-- Provide an easy-to-understand, gamified introduction to Web3 and Aptos blockchain.
-- Showcase how wallet integration and smart contracts can be used to build interactive on-chain apps.
-- Inspire developers to build secure and playful blockchain-based experiences.
+- **Folder structure** - A pre-made dapp folder structure with a `frontend` and `contract` folders.
+- **Dapp infrastructure** - All required dependencies a dapp needs to start building on the Aptos network.
+- **Wallet Info implementation** - Pre-made `WalletInfo` components to demonstrate how one can use to read a connected Wallet info.
+- **Transfer APT implementation** - Pre-made `transfer` components to send APT to an address.
+- **Message board functionality implementation** - Pre-made `message` components to send and read a message on chain
 
-## ⭐ Key Features
+## What tools the template uses?
 
-- 🔐 **Petra Wallet Integration** – Connect wallet securely with a click.
-- 🎲 **Dice Rolling Logic** – Smart contract interaction to simulate rolling a dice.
-- ⚡ **Real-time Result Handling** – Displays results after confirming on-chain transaction.
-- 🧠 **Built with Move** – Uses Move smart contracts on Aptos blockchain.
-- 💻 **React Frontend** – Smooth and responsive UI with animations.
-- 🪙 **Blockchain Interaction** – Demonstrates `waitForTransaction`, `signAndSubmitTransaction`, and `entry functions`.
+- React framework
+- Vite development tool
+- shadcn/ui + tailwind for styling
+- Aptos TS SDK
+- Aptos Wallet Adapter
+- Node based Move commands
+- [Vite-pwa](https://vite-pwa-org.netlify.app/)
 
-## ⭐ Future Scope
+## What Move commands are available?
 
-- 👫 Add multiplayer dice battles with scoreboards
-- 🏆 Reward NFTs for high scores or streaks
-- 📱 Convert to PWA or mobile-first app
-- 🔄 Host backend to store user stats/history
-- 🧪 Auto-testing framework for contract + frontend
-- 🚀 Mainnet deployment with faucet integration on testnet
+The tool utilizes [aptos-cli npm package](https://github.com/aptos-labs/aptos-cli) that lets us run Aptos CLI in a Node environment.
 
-## ⭐ Screenshot
+Some commands are built-in the template and can be ran as a npm script, for example:
 
-<img width="1898" height="976" alt="Screenshot 2025-08-05 201802" src="https://github.com/user-attachments/assets/65603ecc-11f0-4e5d-b856-bca8177a347f" />
+- `npm run move:publish` - a command to publish the Move contract
+- `npm run move:test` - a command to run Move unit tests
+- `npm run move:compile` - a command to compile the Move contract
+- `npm run move:upgrade` - a command to upgrade the Move contract
+- `npm run dev` - a command to run the frontend locally
+- `npm run deploy` - a command to deploy the dapp to Vercel
 
-
-> ![Petra Dice Roll DApp UI]("C:\Users\K DHANU VENKATESH\venkysapp\frontend\Screenshot 2025-08-05 201802.png")
-
-_📌 Make sure the image file exists at `frontend/screenshots/dice-roll-screenshot.png`. Rename your actual file (`Screenshot 2025-08-05 201802.png`) to `dice-roll-screenshot.png` and place it in a `screenshots` folder inside `frontend/`._
-
----
-
-### 📂 Folder Structure (for reference)
-
-
-
-
----
-
-### 🚀 How to Run the Project
-
-```bash
-# Clone the repo
-git clone https://github.com/yourusername/venkys-dice-dapp.git
-
-# Navigate to the frontend
-cd venkys-dice-dapp/frontend
-
-# Install dependencies
-npm install
-
-# Run the app
-npm run dev
-
-
+For all other available CLI commands, can run `npx aptos` and see a list of all available commands.
