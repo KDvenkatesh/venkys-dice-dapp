@@ -72,5 +72,6 @@ Our vision is to create a **fun, interactive, and rewarding** decentralized gami
 - 🤖 AI-based bots for single-player challenges.
 
 ## ⭐ Screenshot
-C:\Users\K DHANU VENKATESH\OneDrive\Pictures\Screenshots
+<img width="1879" height="860" alt="Screenshot 2025-08-14 122620" src="https://github.com/user-attachments/assets/b2d7381e-b483-445c-8dce-b3a41d22df34" />
+
 
